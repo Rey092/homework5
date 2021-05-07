@@ -1,6 +1,9 @@
 manage.py = homework5/manage.py
 main_app = homework5
 
+fill_posts:
+	python $(manage.py) fill_posts
+
 install:
 	pip install -r requirements.txt
 

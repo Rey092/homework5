@@ -34,4 +34,6 @@ urlpatterns = [
     path('logs_delete/', views.test, name='test'),
 
     path('contact-us/create/', views.CreateContactUsView.as_view(), name='contact_us'),
+
+    path('parser/medusweet/', views.medusweet_xlsx, name='medusweet_xlsx')
 ]
